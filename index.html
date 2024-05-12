@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/aa9afbe9a3.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Media Queries</title>
+  </head>
+  <body>
+    <nav class="menu">
+      <div class="menu-item">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="icon icon-tabler icon-tabler-plane-departure"
+          width="44"
+          height="44"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="#ffffff"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <path
+            d="M14.639 10.258l4.83 -1.294a2 2 0 1 1 1.035 3.863l-14.489 3.883l-4.45 -5.02l2.897 -.776l2.45 1.414l2.897 -.776l-3.743 -6.244l2.898 -.777l5.675 5.727z"
+          />
+          <path d="M3 21h18" />
+        </svg>
+        <h5><b>Destinos Turisticos</b></h5>
+      </div>
+
+      <div class="burguer">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="60"
+          height="60"
+          fill="currentColor"
+          class="list_icon"
+          viewBox="0 0 16 16"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+          />
+        </svg>
+      </div>
+    </nav>
+    <section class="filtros">
+      <p><center>Ordenar por:</center></p>
+      <select>
+        <option value="clima">Clima</option>
+        <option value="continente">Continente</option>
+      </select>
+    </section>
+    <div class="menu-list">
+      <p>Inicio</p>
+      <p>Catalogo</p>
+      <p>Ofertas</p>
+      <p>Contacto</p>
+    </div>
+    <main>
+      <article class="cards">
+        <div class="card">
+          <img src="assets/img/EiffelTower.jpg" alt=" Paris Torre Eiffel" />
+          <p>Paris, Francia</p>
+          <button>Ver más</button>
+        </div>
+
+        <div class="card">
+          <img
+            src="assets/img/EstatuaLibertadNewYork.jpg"
+            alt="New York Lyberty"
+          />
+          <p>New York, USA</p>
+          <button>Ver más</button>
+        </div>
+        <div class="card">
+          <img src="assets/img/KiotoPagoda.jpg" alt="Kioto Ciudad" />
+          <p>Kioto, Japon</p>
+          <button>Ver más</button>
+        </div>
+
+        <div class="card">
+          <img src="assets/img/MurallaChina.jpg" alt="China Muralla" />
+          <p>Muralla China</p>
+          <button>Ver más</button>
+        </div>
+        <div class="card">
+          <img src="assets/img/petraJordania.jpg" alt="Jordania Petra" />
+          <p>Petra, Jordania</p>
+          <button>Ver más</button>
+        </div>
+        <div class="card">
+          <img src="assets/img/shanGriLaIndia.jpg" alt="India" />
+          <p>Uttar Pradesh, india</p>
+          <button>Ver más</button>
+        </div>
+        <div class="card">
+          <img
+            src="assets/img/stonehengeInglaterra.jpg"
+            alt="Inglatgerra StoneHenge"
+          />
+          <p>Wiltshire, Inglaterra</p>
+          <button>Ver más</button>
+        </div>
+        <div class="card">
+          <img src="assets/img/taiwan.jpg" alt="Taiwan" />
+          <p>Taipéi, China</p>
+          <button>Ver más</button>
+        </div>
+        <div class="card">
+          <img src="assets/img/TokioTower.jpg" alt="Tokio Tower" />
+          <p>Tokio, Japon</p>
+          <button>Ver más</button>
+        </div>
+        <div class="card">
+          <img src="assets/img/AurorasIslandia.jpg" alt="Aurora Islandia" />
+          <p>Reykjavík, Islandia</p>
+          <button>Ver más</button>
+        </div>
+        <div class="card">
+          <img src="assets/img/Bahamas.jpg" alt="Bahamas" />
+          <p>Nassau, Bahamas</p>
+          <button>Ver más</button>
+        </div>
+        <div class="card">
+          <img src="assets/img/CatedralMilan.jpg" alt="Milan Catedral" />
+          <p>Milan, Italia</p>
+          <button>Ver más</button>
+        </div>
+        <div class="card">
+          <img src="assets/img/ColiseoRoma.jpg" alt="Roma Coliseo" />
+          <p>Roma, Italia</p>
+          <button>Ver más</button>
+        </div>
+        <div class="card">
+          <img
+            src="assets/img/DisneyCastilloOrlando.jpg"
+            alt="Orlando Disney"
+          />
+          <p>Florida, USA</p>
+          <button>Ver más</button>
+        </div>
+      </article>
+      <div class="buttons">
+        <button><<</button>
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>>></button>
+      </div>
+    </main>
+    <footer>
+      <div>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="icon icon-tabler icon-tabler-brand-facebook"
+          width="44"
+          height="44"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="#ffffff"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <path
+            d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"
+          />
+        </svg>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="icon icon-tabler icon-tabler-brand-instagram"
+          width="44"
+          height="44"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="#ffffff"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <path
+            d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z"
+          />
+          <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+          <path d="M16.5 7.5l0 .01" />
+        </svg>
+      </div>
+      <h5>Todos los Derechos Reservados</h5>
+    </footer>
+  </body>
+</html>
