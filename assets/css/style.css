@@ -123,6 +123,46 @@ footer svg {
 }
 @media (min-width: 576px) {
   body {
+    grid-template-rows: 15vh 1fr 15vh;
+    grid-template-areas: "menu menu-list" "filtros main" "footer footer";
+  }
+  .burguer {
+    display: none;
+  }
+  .card {
+    width: 29vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .card img {
+    max-width: 29vw;
+  }
+  .cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .filtros {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  .menu-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    background-color: #155eb1;
+  }
+}
+@media (min-width: 992px) {
+  body {
     grid-template-rows: 15vh 1fr 25vh;
     grid-template-areas: "menu filtros" " menu-list main" "footer main";
   }
